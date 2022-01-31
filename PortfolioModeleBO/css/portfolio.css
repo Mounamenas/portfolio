@@ -1,0 +1,173 @@
+body
+{
+	background-color: #BA55D3;
+	color:black;
+
+}
+#form1 {
+	width: 40%;
+	margin: 10% auto;
+	height : 40vh;
+	background-color: white;
+	box-shadow: 10px 10px 15px  lightgray;
+}
+#form1 input {
+	display: block;
+	
+	margin: auto;
+
+
+}
+#form1 input[type=text]{
+	width: 40%;
+	height:2.5em;
+	border: 2px solid gray;
+		
+}
+#form1 input[type=password]{
+	width: 40%;
+	height:2.5em;
+	border: 2px solid gray;
+	margin-bottom: 2em;
+
+	
+}
+input[type = submit]{
+	border-radius: 30%;
+	width: 30%;
+	height: 4em;
+	font-weight: bold;
+	font-size: 1em;
+	margin-top:2.5em;
+	/*position:relative;
+	top:1em;*/
+}
+input[type = submit]:hover{
+	background-color: #BA55D3;
+	color:white;
+}
+#form1 label{
+	font-weight: bold;
+	font-size: 1.5em;
+	display: inline-block;
+	position:relative;
+	top: 1.5em;
+	margin-left: 2px;
+	
+
+}
+h3{
+	text-align: center;
+	font-size: 4em;
+	color:white;
+	font-family: Didot, serif;
+}
+#erreur{
+	text-align: center;
+	font-size:1.5em;
+	font-weight: bold;
+	color:red;
+	margin-top:-4em;
+}
+p{
+	text-align: center;
+	font-size:1.5em;
+	font-weight: bold;
+	color:white;
+}
+#deco{
+	margin-left: 45%;
+}
+table {
+	width: 100%;
+	border-collapse: collapse;
+	/*margin: auto;*/
+
+	color:black;
+	
+}
+table tr, table td, table th {
+	border:1px solid black;
+	text-align: center;
+	font-size: 1em;
+	font-weight: bold;
+
+}
+table th{
+	padding: 1em;
+}
+table td:last-child{
+	width: auto;
+}
+
+#ajouter{
+	width: 20%;
+	margin-left: 40%;
+}
+.boutons{
+	margin-bottom: 1em;
+	
+	
+	width: 20%;
+
+
+
+
+}
+a{
+	color:black;
+	font-weight: bold;
+
+}
+
+
+/* Formulaire de choix de la langue */
+/*form#langue button#en, form#langue button#fr {
+	display:inline-block;
+	width:60px;
+	height:40px;
+	background-size:cover;
+}*/
+/*form#langue button#fr {
+	background-image: url(../images/flagfr.png);
+}
+form#langue button#en {
+	background-image: url(../images/flaguk.gif);
+}
+form#langue button:hover {
+	cursor : pointer;
+}
+button.inactive {
+	opacity: 70%;
+}*/
+/* Galerie de photos */
+/*ul#photos img {
+	width:100px;
+}
+ul#photos li {
+	list-style: non;
+	display:inline;
+}
+section#QuatreCentQuatre {
+    font-family: 'Carter One', cursive;
+	position: absolute;
+	top: 0;bottom: 0;left: 0; right: 0;
+	width: 100%;
+	height: 100%;
+	background-image: radial-gradient(circle, #f3f646, #fccc00, #ff9e00, #ff6900, #ff0000);
+}
+section#QuatreCentQuatre h1 {
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	font-size : 300%;
+	color: white;
+}
+section#QuatreCentQuatre a {
+	position: absolute;
+	top: 56%;
+	left: 61%;
+	font-size : 150%;
+	text-decoration: none;
+	color: red ;
+}*/
