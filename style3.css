@@ -805,14 +805,14 @@ p#legend {
     width: 40%;
     height: 100%;
     position: relative;
-    top: 600px;
+    top: 500px;
     left: 35% ;
     
   }
   #presentation1 {
     
     position: relative;
-    top: 300px;
+    top: 200px;
 
   }
   #presentation1 p{
