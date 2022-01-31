@@ -798,21 +798,29 @@ p#legend {
 @media screen and (max-width: 767px) {
   header{
        background:linear-gradient(to top, beige 40%, transparent 60%), url(images/img/me3.jpg);
+       background-position: 10%;
   }
+
+    #aboutme{
+    
+    height: 110vh;
+    min-height: 800px;
+  }
+
 
   #presentation {
     text-align: center;
     width: 40%;
     height: 100%;
     position: relative;
-    top: 500px;
+    top: 600px;
     left: 35% ;
     
   }
   #presentation1 {
     
     position: relative;
-    top: 200px;
+    top:250px;
 
   }
   #presentation1 p{
